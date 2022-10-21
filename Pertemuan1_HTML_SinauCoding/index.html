@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 1 Sinau Koding (Vue)- Dwi Waluyo Putranto</title>
+    <style>
+      thead td,
+      .jenis {
+        font-weight: bold;
+        text-align: center;
+      }
+      th,
+      td {
+        padding: 3px 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="margin: 0 auto; padding: 20px">
+      <table border="1" align="center">
+        <thead>
+          <td><strong>Jenis</strong></td>
+          <td><strong>Hasil</strong></td>
+          <td><strong>Keterangan</strong></td>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="jenis">Text</td>
+            <td align="center">
+              <input type="text" placeholder="input text" />
+            </td>
+            <td>inputan yang diterima adalah text</td>
+          </tr>
+          <tr>
+            <td class="jenis">Email</td>
+            <td align="center">
+              <input type="email" placeholder="input email" />
+            </td>
+            <td>inputan yang diterima adalah email dan mengandung validasi</td>
+          </tr>
+          <tr>
+            <td class="jenis">Number</td>
+            <td align="center">
+              <input type="number" placeholder="input number" />
+            </td>
+            <td>inputan yang diterima adalah angka</td>
+          </tr>
+          <tr>
+            <td class="jenis">Password</td>
+            <td align="center">
+              <input type="password" placeholder="input password" />
+            </td>
+            <td>
+              inputan yang diterima adalah textyang disembunyikan dalam bentuk
+              bintang
+            </td>
+          </tr>
+          <tr>
+            <td class="jenis">Radio</td>
+            <td align="center">
+              <input
+                type="radio"
+                id="radio1"
+                name="radio"
+                value="Radio 1"
+              />Radio 1
+              <input
+                type="radio"
+                id="radio2"
+                name="radio"
+                value="Radio 2"
+              />Radio 2
+            </td>
+            <td>
+              inputan yang diterima adalah berupa pilihan dan hanya bisa pilih
+              salah satu
+            </td>
+          </tr>
+          <tr>
+            <td class="jenis">Checkbox</td>
+            <td align="center">
+              <input
+                type="checkbox"
+                id="checkbox1"
+                name="checkbox"
+                value="Checkbox 1"
+              />Checkbox 1
+              <input
+                type="checkbox"
+                id="checkbox2"
+                name="checkbox"
+                value="Checkbox 2"
+              />Checkbox 2
+            </td>
+            <td>
+              inputan yang diterima adalah berupa checklist dan bisa pilih
+              beberapa
+            </td>
+          </tr>
+          <tr>
+            <td class="jenis">Range</td>
+            <td align="center">
+              <input type="range" id="range1" name="range" min="0" max="10" />
+            </td>
+            <td>
+              inputan yang diterima adalah berupa pilihan dan hanya bisa pilih
+              salah satu
+            </td>
+          </tr>
+          <tr>
+            <td class="jenis">Time</td>
+            <td align="center">
+              <input type="time" id="time1" name="time" />
+            </td>
+            <td>inputan yang diterima adalah format waktu</td>
+          </tr>
+          <tr>
+            <td class="jenis">Date</td>
+            <td align="center">
+              <input type="date" id="date1" name="date" />
+            </td>
+            <td>
+              inputan yang diterima adalah format waktu dalam satuan hari(hh)
+              ,bulan(bb) dan tahun(tttt)
+            </td>
+          </tr>
+          <tr>
+            <td class="jenis">Week</td>
+            <td align="center">
+              <input type="week" id="week1" name="week" />
+            </td>
+            <td>
+              inputan yang diterima adalah format waktu dalam kurun waktu satu
+              minggu
+            </td>
+          </tr>
+          <tr>
+            <td class="jenis">Month</td>
+            <td align="center">
+              <input type="month" id="month1" name="month" />
+            </td>
+            <td>
+              inputan yang diterima adalah format waktu dalam kurun waktu dalam
+              satuan hari bulan (bbbbbbbbb) dan tahun (tttt)
+            </td>
+          </tr>
+          <tr>
+            <td class="jenis">Color</td>
+            <td align="center">
+              <input type="color" id="color1" name="color" />
+            </td>
+            <td>inputan yang diterima adalah berupa warna yang dihasilkan</td>
+          </tr>
+          <tr>
+            <td class="jenis">File</td>
+            <td align="center">
+              <input type="file" id="file1" name="file" style="width: 180px" />
+            </td>
+            <td>inputan yang diterima adalah dalam bentuk file</td>
+          </tr>
+          <tr>
+            <td class="jenis">Combo box</td>
+            <td align="center">
+              <select name="combobox" id="combobox">
+                <option value="">option 1</option>
+                <option value="">option 2</option>
+                <option value="">option 3</option>
+              </select>
+            </td>
+            <td>
+              inputan yang diterima adalah berupa option yang bisa dipilih
+            </td>
+          </tr>
+          <tr>
+            <td class="jenis">Textarea</td>
+            <td align="center">
+              <textarea name="" id="" cols="25" rows="10"></textarea>
+            </td>
+            <td>
+              inputan yang diterima adalah berupa text dengan karakter yang
+              panjang
+            </td>
+          </tr>
+          <tr>
+            <td class="jenis">Button</td>
+            <td align="center">
+              <button>Button</button>
+            </td>
+            <td>
+              inputan yang diterima adalah berupa tombol yang bisa melakukan
+              action tertentu ketika diberi perintah
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
