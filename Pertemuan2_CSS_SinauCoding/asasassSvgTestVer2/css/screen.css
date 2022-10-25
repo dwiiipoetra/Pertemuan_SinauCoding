@@ -1,0 +1,13 @@
+
+body {
+    background-color: #f0f0f0;
+    font: 100% / 162% verdana, arial, helvetica, sans-serif;
+ }
+ 
+.box {
+    width: 40%;
+	padding-top: 40%;
+	margin: 1em auto;
+	background-image: url( ../svg/multi-coloured-bg.svg );
+	background-size: 25% auto;
+ }
